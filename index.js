@@ -33,7 +33,7 @@ bot.on('message', msg => {
             msg.reply('Je suis d\'accord avec toi.')
     }
     if (msg.content === prefix + "site"){
-        msg.channel.send("https://imaginarium/")
+        msg.channel.send("https://imaginariumdiscord.wixsite.com/imaginarium")
         console.log("Une personne a demandé pour aller sur ton site.")
     }
 
